@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?sfuowz");
+  src: url("fonts/icomoon.eot?sfuowz#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?sfuowz") format("truetype"),
+    url("fonts/icomoon.woff?sfuowz") format("woff"),
+    url("fonts/icomoon.svg?sfuowz#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.SI-Astro-float:before {
+  content: "\e900";
+}
+.SI-Astronaut:before {
+  content: "\e901";
+}
+.SI-meteor:before {
+  content: "\e902";
+}
+.SI-Moon:before {
+  content: "\e903";
+}
+.SI-planet:before {
+  content: "\e904";
+}
+.SI-rocket:before {
+  content: "\e905";
+}
+.SI-satellite:before {
+  content: "\e906";
+}
+.SI-system:before {
+  content: "\e907";
+}
